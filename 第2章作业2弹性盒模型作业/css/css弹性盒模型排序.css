@@ -1,0 +1,26 @@
+.con{
+	display: -webkit-flex;
+    -webkit-box-orient:vertical;
+    flex-direction:column;
+}
+.one{
+     width: 100px;
+     height: 50px;
+     background: green;
+     -webkit-order:2;
+}
+.second{
+	width: 100px;
+    height: 50px;
+    background: orange;
+    -webkit-order:3;
+}
+
+
+.three{
+	 width: 100px;
+     height: 50px;
+     background: yellow;
+     -webkit-order:1;
+}
+

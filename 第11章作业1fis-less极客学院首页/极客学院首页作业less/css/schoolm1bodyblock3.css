@@ -1,0 +1,279 @@
+.body--block3 {
+  width: 1000px;
+  height: 370px;
+  position: relative;
+  left: 50%;
+  margin-left: -500px;
+}
+.body--block3--grand1 {
+  width: 1000px;
+  height: 60px;
+  line-height: 60px;
+}
+.body--block3--grand2 {
+  width: 1000px;
+  height: 310px;
+  margin: 0;
+  padding: 0;
+}
+.body--block3--grand2--child1 {
+  width: 192px;
+  height: 150px;
+  background: white;
+  float: left;
+  position: relative;
+}
+.body--block3--grand2--child1:hover {
+  box-shadow: -2px 0px 2px 0px #F2EBEB, /*左边阴影  绿色*/ 2px 0px 2px 0px #F2EBEB, /*右边阴影  蓝色*/ 0px 3px 5px 2px #DAD3D3;
+  /*下边阴影  黄色*/
+}
+.body--block3--grand2--child1 img {
+  width: 160px ;
+  height: 96px;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.img1down {
+  width: 192px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  margin-top: -2px;
+}
+.body--block3--grand2--child2 {
+  width: 192px;
+  height: 150px;
+  background: white;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+}
+.body--block3--grand2--child2 img {
+  width: 160px ;
+  height: 96px;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.img2down {
+  width: 192px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  margin-top: -2px;
+}
+.body--block3--grand2--child2:hover {
+  box-shadow: -2px 0px 2px 0px #F2EBEB, /*左边阴影  绿色*/ 2px 0px 2px 0px #F2EBEB, /*右边阴影  蓝色*/ 0px 3px 5px 2px #DAD3D3;
+  /*下边阴影  黄色*/
+}
+.body--block3--grand2--child3 {
+  width: 192px;
+  height: 150px;
+  background: white;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+}
+.body--block3--grand2--child3 img {
+  width: 160px ;
+  height: 96px;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.img3down {
+  width: 192px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  margin-top: -2px;
+}
+.body--block3--grand2--child3:hover {
+  box-shadow: -2px 0px 2px 0px #F2EBEB, /*左边阴影  绿色*/ 2px 0px 2px 0px #F2EBEB, /*右边阴影  蓝色*/ 0px 3px 5px 2px #DAD3D3;
+  /*下边阴影  黄色*/
+}
+.body--block3--grand2--child4 {
+  width: 192px;
+  height: 150px;
+  background: white;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+}
+.body--block3--grand2--child4 img {
+  width: 160px ;
+  height: 96px;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.img4down {
+  width: 192px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  margin-top: -2px;
+}
+.body--block3--grand2--child4:hover {
+  box-shadow: -2px 0px 2px 0px #F2EBEB, /*左边阴影  绿色*/ 2px 0px 2px 0px #F2EBEB, /*右边阴影  蓝色*/ 0px 3px 5px 2px #DAD3D3;
+  /*下边阴影  黄色*/
+}
+.body--block3--grand2--child5 {
+  width: 192px;
+  height: 150px;
+  background: white;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+}
+.body--block3--grand2--child5 img {
+  width: 160px ;
+  height: 96px;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.img5down {
+  width: 192px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  margin-top: -2px;
+}
+.body--block3--grand2--child5:hover {
+  box-shadow: -2px 0px 2px 0px #F2EBEB, /*左边阴影  绿色*/ 2px 0px 2px 0px #F2EBEB, /*右边阴影  蓝色*/ 0px 3px 5px 2px #DAD3D3;
+  /*下边阴影  黄色*/
+}
+.body--block3--grand2--child6 {
+  width: 192px;
+  height: 150px;
+  background: white;
+  float: left;
+  position: relative;
+  margin-top: 10px;
+}
+.body--block3--grand2--child6 img {
+  width: 160px ;
+  height: 96px;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.img6down {
+  width: 192px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  margin-top: -2px;
+}
+.body--block3--grand2--child6:hover {
+  box-shadow: -2px 0px 2px 0px #F2EBEB, /*左边阴影  绿色*/ 2px 0px 2px 0px #F2EBEB, /*右边阴影  蓝色*/ 0px 3px 5px 2px #DAD3D3;
+  /*下边阴影  黄色*/
+}
+.body--block3--grand2--child7 {
+  width: 192px;
+  height: 150px;
+  background: white;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.body--block3--grand2--child7 img {
+  width: 160px ;
+  height: 96px;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.img7down {
+  width: 192px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  margin-top: -2px;
+}
+.body--block3--grand2--child7:hover {
+  box-shadow: -2px 0px 2px 0px #F2EBEB, /*左边阴影  绿色*/ 2px 0px 2px 0px #F2EBEB, /*右边阴影  蓝色*/ 0px 3px 5px 2px #DAD3D3;
+  /*下边阴影  黄色*/
+}
+.body--block3--grand2--child8 {
+  width: 192px;
+  height: 150px;
+  background: white;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.body--block3--grand2--child8 img {
+  width: 160px ;
+  height: 96px;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.img8down {
+  width: 192px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  margin-top: -2px;
+}
+.body--block3--grand2--child9 {
+  width: 192px;
+  height: 150px;
+  background: white;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.body--block3--grand2--child9 img {
+  width: 160px ;
+  height: 96px;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.img9down {
+  width: 192px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  margin-top: -2px;
+}
+.body--block3--grand2--child10 {
+  width: 192px;
+  height: 150px;
+  background: white;
+  float: left;
+  position: relative;
+  margin-left: 10px;
+  margin-top: 10px;
+}
+.body--block3--grand2--child10 img {
+  width: 160px ;
+  height: 96px;
+  position: relative;
+  margin-top: 16px;
+  margin-left: 16px;
+}
+.img10down {
+  width: 192px;
+  height: 36px;
+  text-align: center;
+  line-height: 36px;
+  font-size: 12px;
+  margin-top: -2px;
+}

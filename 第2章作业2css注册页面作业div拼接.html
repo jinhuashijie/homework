@@ -1,0 +1,1420 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>注册页面作业</title>
+
+  <style type="text/css">
+      .redo{
+         color: red;
+         position:relative; top:7px;
+         font-size: 20px;
+          }
+      .redt{
+         color: red;
+         
+          }
+      .redb{
+         color: #191CAE;
+         
+          }
+
+   body {
+        background-color: #1886A7;
+            }
+
+     
+     .box{
+          position: absolute;
+          left: 50%;
+          margin-left:-350px;margin-top:10px;
+          width: 700px;height: 2690px;
+          background-color: white;
+          border:1px solid #C0BDBD;
+          
+          border-radius:30px;
+                                            }
+     .header{
+          position: absolute;
+          margin-left: 50%;
+          top:110px;
+          left: -50px;
+          font-family:"Microsoft YaHei";
+                                             }
+     .dingbu{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:140px;
+          width: 600px;height: 60px;
+          background: white;
+          border:1px solid #C0BDBD;
+          text-align:center;
+          line-height:30%;
+          font-size:6px;
+
+                                            }
+     .jibenziliao{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:200px;
+          width: 600px;height: 25px;
+          background:#E9E5E5;
+          border:1px solid #C0BDBD; 
+          
+                                             }
+     .name{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:225px;
+          width: 110px;height: 65px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:65px;
+          font-size: 12px;
+                                             }
+     .four{
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:225px;
+          width: 488px;height: 60px;
+          background: white;
+          border:1px solid #C0BDBD; 
+          font-size:10px;
+          line-height: 15px;
+          padding-top: 5px;
+          padding-left: 2px;
+          
+                                             }
+    .shenfenzheng{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:290px;
+          width: 110px; height: 30px;
+          background: white;
+          border:1px solid #C0BDBD; 
+          line-height:30px;
+          font-size: 12px;
+
+                                             }
+     .shenfenzhenginput{
+           position: absolute;
+           left: 50%;
+           margin-left:-190px;margin-top:290px;
+           width: 488px;padding-left: 2px; height: 30px;
+           background: white;
+           border:1px solid #C0BDBD; 
+           line-height:30px;
+            font-size: 10px;
+            padding-left: 2px;
+                                               }
+        .xingbie{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:320px;
+          width: 110px; height: 30px;
+          background: white;
+          border:1px solid #C0BDBD; 
+          line-height:20px;   
+          font-size: 12px;
+
+                                              }
+     .xingbieinput{
+           position: absolute;
+           left: 50%;
+           margin-left:-190px;margin-top:320px;
+           width: 488px; height: 30px;
+           background: white;
+           border:1px solid #C0BDBD; 
+           line-height:27px;
+           padding-left: 2px;
+                                    }  
+     .date{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:350px;
+          width: 110px; height: 25px;
+          background: white;
+          border:1px solid #C0BDBD; 
+          line-height:18px;
+          font-size: 12px;
+
+                                              }
+     .dateinput{
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:350px;
+          width: 488px;padding-left: 2px; height: 25px;
+          background: white;
+          border:1px solid #C0BDBD; 
+          line-height:21px;
+                                              }
+     .zhuanye{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:374px;
+          width: 110px; height:50px;
+          background: white;
+          border:1px solid #C0BDBD; 
+          line-height:40px;
+          font-size: 12px;
+                                            }
+     .zhuanyeinput{
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:374px;
+          width: 488px;padding-left: 2px; height: 50px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          font-size:2px;
+          line-height:25px;
+                                           }
+     .xueli{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:424px;
+          width: 110px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:25px;
+          font-size: 12px;
+                                          }
+     .xueliinput{
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:424px;
+          width: 488px;padding-left: 2px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:30px;
+                                          }
+     .shenfen{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:454px;
+          width: 110px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:25px;
+          font-size: 12px;
+                                             }
+     .shenfeninput{
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:454px;
+          width: 488px;padding-left: 2px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:30px;
+          font-size: 10px;
+                                           }
+     .jiguan{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:484px;
+          width: 110px; height: 30px;
+          background: white;
+          border:1px solid #C0BDBD; 
+          font-size: 12px;
+          
+                                             }
+     .jiguaninput{
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:484px;
+          width: 488px;padding-left: 2px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          font-size: 10px;
+          line-height:30px;
+                                            }
+     .biye{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:514px;
+          width: 110px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          font-size: 12px;
+          line-height:25px;
+         
+                                            }
+     .biyeinput{
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:514px;
+          width: 488px;padding-left: 2px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:31px;
+          font-size: 5px;
+                                             }
+     .gaozhong{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:544px;
+          width: 110px; height: 50px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:40px;
+          font-size: 12px;
+                                       }
+     .gaozhonginput{
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:544px;
+          width: 488px;padding-left: 2px; height: 45px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:20px;
+          font-size: 5px;
+          padding-top: 5px;
+                                       }
+     .lianxifangshi{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:594px;
+          width: 600px; height: 30px;
+          background: #E9E5E5;
+          border:1px solid #C0BDBD; 
+          line-height:30px;
+                                            }
+
+
+     .shouji  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:624px;
+          width: 110px; height: 50px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:50px;
+          font-size: 12px;
+                   }
+     .shoujiinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:624px;
+          width: 488px;padding-left: 2px; height: 50px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          font-size: 10px;
+          line-height:25px;
+             }
+     .zhusuo{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:674px;
+          width: 110px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:25px;
+          font-size: 12px;
+                }
+     .zhusuoinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:674px;
+          width: 488px;padding-left: 2px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          font-size: 10px;  
+          line-height:30px;      
+
+
+                }
+     .jiating  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:704px;
+          width: 110px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:30px;
+          font-size: 12px;
+                }
+     .jiatinginput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:704px;
+          width: 488px;padding-left: 2px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          font-size: 10px;
+          line-height:30px;
+
+                }
+     .email  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:734px;
+          width: 110px; height: 50px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:45px;
+          font-size: 12px;
+                }
+     .emailinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:734px;
+          width: 488px;padding-left: 2px; height: 50px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          font-size: 10px;
+          line-height:25px;
+
+                }
+     .qq  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:784px;
+          width: 110px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:30px;
+          font-size: 12px;
+                }
+     .qqinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:784px;
+          width: 488px;padding-left: 2px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:25px;
+
+                }
+     .xiangxi  {
+         position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:814px;
+          width: 110px; height: 50px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:45px;
+          font-size: 12px;
+                }
+     .xiangxiinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:814px;
+          width: 488px;padding-left: 2px; height: 50px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          font-size: 10px;
+          line-height:25px;
+         
+                }
+     .jiajiaoxinxi  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:864px;
+          width: 600px; height: 30px;
+          background: #E9E5E5;
+          border:1px solid #C0BDBD; 
+          line-height:30px;
+          
+                }
+     .putonghua  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:894px;
+          width: 110px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:25px;
+          font-size: 12px;
+                }
+     .putonghuainput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:894px;
+          width: 488px;padding-left: 2px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+           line-height:30px;
+       
+
+                }
+     .diyiwaiyu  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:924px;
+          width: 110px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:25px;
+          font-size: 12px;
+
+                }
+     .diyiwaiyuinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:924px;
+          width: 488px;padding-left: 2px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+           line-height:30px;
+         
+       
+                }
+     .dierwaiyu  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:954px;
+          width: 110px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:30px;
+          font-size: 12px;
+                }
+     .dierwaiyuinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:954px;
+          width: 488px;padding-left: 2px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+           line-height:30px;
+
+                }
+     .ziwomiaoshu  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:984px;
+          width: 110px; height: 80px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:15px;
+          font-size: 12px;
+          padding-top: 70px;
+                }
+     .ziwomiaoshuinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:984px;
+          width: 488px;padding-left: 2px; height: 145px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          font-size: 10px;
+          line-height:15px;
+          padding-top:5px;
+                }
+     .jiajiaojingli  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:1134px;
+          width: 110px; height: 80px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          line-height:15px;
+          font-size: 12px;
+          padding-top: 70px;
+                }
+     .jiajiaojingliinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:1134px;
+          width: 488px;padding-left: 2px; height: 148px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          font-size: 10px;
+          padding-top: 2px;
+
+                }
+     .fudaokemu  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:1284px;
+          width: 90px; height: 240px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+
+          padding-top:230px;
+          padding-bottom:100px;
+          padding-right:10px;
+          padding-left:10px;
+          font-size: 12px;
+                }
+     .fudaokemuinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:1284px;
+          width: 488px;padding-left: 2px; height: 570px;
+          background:  white;
+          border:1px solid #C0BDBD; 
+          font-size: 9px;
+                }
+     .shanchangkemu  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:1854px;
+          width: 110px; height: 50px;
+          background:  white;
+          border:1px solid #C0BDBD;
+          line-height: 40px;
+          font-size: 12px;
+                }
+     .shanchangkemuinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:1854px;
+          width: 488px;padding-left: 2px; height: 50px;
+          background:  white;
+          border:1px solid #C0BDBD;
+          font-size: 10px;
+                }
+     .shoukequyu  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:1904px;
+          width: 110px; height: 470px;
+          background:  white;
+          border:1px solid #C0BDBD;
+          line-height: 350px;
+          font-size: 12px;
+
+                }
+     .shoukequyuinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:1904px;
+          width: 488px;padding-left: 2px; height:  470px;
+          background:  white;
+          border:1px solid #C0BDBD;
+          line-height: 8px;
+          font-size: 10px;
+
+              
+                }
+     .shoukeshijian  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:2374px;
+          width: 110px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD;
+          line-height: 25px;
+          font-size: 12px;
+
+                }
+     .shoukeshijianinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:2374px;
+          width: 488px;padding-left: 2px; height:  30px;
+          background:  white;
+          border:1px solid #C0BDBD;
+          line-height: 30px;
+          font-size: 10px;
+
+                }
+     .fudaofangshi  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:2404px;
+          width: 110px; height: 30px;
+          background:  white;
+          border:1px solid #C0BDBD;
+          line-height: 25px;
+          font-size: 12px;
+
+                }
+     .fudaofangshiinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:2404px;
+          width: 488px;padding-left: 2px; height:  30px;
+          background:  white;
+          border:1px solid #C0BDBD;
+          line-height: 30px;
+          font-size: 10px;
+
+                }
+     .xinchou  {
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:2434px;
+          width: 110px; height: 120px;
+          background:  white;
+          border:1px solid #C0BDBD;
+          line-height: 100px;
+          font-size: 12px;
+
+                }
+     .xinchouinput  {
+          position: absolute;
+          left: 50%;
+          margin-left:-190px;margin-top:2434px;
+          width: 488px;padding-left: 2px; height:  115px;
+          background:  white;
+          border:1px solid #C0BDBD;
+          font-size: 10px;
+          line-height: 15px;
+          padding-top: 5px;
+                }
+     .tijiao{
+          position: absolute;
+          left: 50%;
+          margin-left:-300px;margin-top:2554px;
+          width: 320px; height: 55px;
+          background:  white;
+          border:1px solid #C0BDBD;
+          
+          padding-top:45px;
+          padding-bottom:;
+          padding-left: 280px;
+          padding-right:;
+
+     }
+
+  </style>
+</head>
+<body  >
+   <div class="box"> </div>
+   <img src="./家教图片.gif" 
+     style="position: absolute;
+            left: 50%;
+            margin-left:-320px;margin-top:17px;
+            ">
+   <a href="http://www.qdjj.net/member/register.asp"
+      style="position: absolute;
+            left: 50%;
+            margin-left:200px;margin-top:70px;
+            font-size: 10px;
+            color:#EA527D;
+            "  >注册</a>
+   <a href="http://www.qdjj.net/login.asp"
+      style="position: absolute;
+            left: 50%;
+            margin-left:235px;margin-top:70px;
+            font-size: 10px;
+            color:#EA527D;
+            "  >登录
+       </a>
+   <a href="javascript:window.external.addFavorite('http://  
+      www.qdjj.net','%E9%9D%92%E5%B2%9B%E5%AE%B6%E6%95%99%E7%BD%91')"
+      style="position: absolute;
+            left: 50%;
+            margin-left:270px;margin-top:70px;
+            font-size: 10px;
+            color:#EA527D;
+            "  >收藏本站
+       </a>
+   <div class="header">新教员注册第二步</div>
+   <div class="dingbu">
+            <p>您的注册资料越详细就越有利于家长和学员检索，也就越容易获得家长的预约，所以请您务必如实详细地填写。</p>
+             <p>  其中红色星号（<span class="redo">*</span>）为必填。我们已对您的个人信息做保密处理，您的信息是安全的。</p>
+                <p> 您选择的是<span class="redt">大学生</span>身份,若有误请
+                    <a href="http://www.qdjj.net/member/register_1.asp"> 返回 </a>更改
+                </p>
+            </div><font color="#C0BDBD">
+             </font>
+   <div class="jibenziliao">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <span class="redb">基本资料</span>
+         </div>
+   <div class="name">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+              &nbsp;<span class="redo">*</span>真实姓名：
+               </div>
+   <div class="four"><input type="text" size="40" value="" /><br>
+          <span class="redt">
+          注意：</span><span class="redb">姓名应与身份证完全一致，本网站将对你的姓名严格保密，只显示您的姓，如“张教员”。此部分将在认证时严格审查，一经填写不得修改，与证件不符者将不能通过认证！</span></br></div>
+   <div class="shenfenzheng">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;   
+         身份证  /护照：
+          </div>
+   <div class="shenfenzhenginput">
+         <input type="text" size="40" value="" /><span class="redb">(此项将严格保密，不对外公开) </span>  
+         </div>
+   <div class="xingbie">  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span class="redo">*</span>性别:
+             </div>
+   <div class="xingbieinput">
+             <div>
+                    <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                          <option value="1">--请选择--</option>
+                          <option value="2">男</option> 
+                          <option value="3">女</option>
+                    </select>
+                </div>
+             </div>
+   <div class="date"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <span class="redo">*</span>出生年份：</div>
+              <div class="dateinput">
+             <div>
+                 <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                          <option value="1">选择 年...</option>
+                          <option value="">1945</option>  <option value="">1946</option> 
+                          <option value="">1947</option> <option value="">1948</option> 
+                          <option value="">1949</option> <option value="">1950</option> 
+                          <option value="">1951</option>   <option value="">1952</option>
+                          <option value="">1953</option>  <option value="">1954</option>
+                          <option value="">1955</option>   <option value="">1956</option>
+                          <option value="">1957</option>  <option value="">1958</option>
+                          <option value="">1959</option>   <option value="">1960</option>
+                          <option value="">1961</option>  <option value="">1962</option>
+                          <option value="">1963</option>   <option value="">1964</option>
+                          <option value="">1965</option>  <option value="">1966</option>
+                          <option value="">1967</option>   <option value="">1968</option>
+                          <option value="">1969</option>  <option value="">1970</option>
+                          <option value="">1971</option>   <option value="">1972</option>
+                          <option value="">1973</option>  <option value="">1974</option>
+                          <option value="">1975</option>   <option value="">1976</option>
+                          <option value="">1977</option>  <option value="">1978</option>
+                          <option value="">1979</option>   <option value="">1980</option>
+                          <option value="">1981</option>  <option value="">1982</option>
+                          <option value="">1983</option>   <option value="">1984</option>
+                          <option value="">1985</option>  <option value="">1986</option>
+                          <option value="">1987</option>   <option value="">1988</option>
+                          <option value="">1989</option>  <option value="">1990</option>
+                          <option value="">1991</option>   <option value="">1992</option>
+                          <option value="">1993</option>  <option value="">1994</option>
+                          <option value="">1995</option>   <option value="">1996</option>
+                          <option value="">1997</option>  <option value="">1998</option>
+                          <option value="">1999</option>   <option value="">2000</option>
+                          <option value="">2001</option>  <option value="">2002</option>
+                          <option value="">2003</option>   <option value="">2004</option>
+                          <option value="">2005</option>  <option value="">2006</option>
+                          <option value="">2007</option>   <option value="">2008</option>
+                          <option value="">2009</option>  <option value="">2010</option>
+                          <option value="">2011</option>   <option value="">2012</option>
+                          <option value="">2013</option>  <option value="">2014</option>
+                          <option value="">2015</option>   <option value="">2016</option>
+                    
+                </select>
+                 
+              </div>
+
+
+              </div>
+   <div class="zhuanye">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <span class="redo">*</span>专业：
+             </div>
+   <div class="zhuanyeinput">
+      <input type="text" size="50" value="" /> <span class="redb">
+      请如实填写专业全名，以学生证为准。此部分将在认证时严格审查，与证件不符者将不能通过认证！</span>
+       </div>
+   <div class="xueli">  <span class="redo">*</span>目前（最高）学历</div>
+   <div class="xueliinput">
+              <div>
+                 <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                          <option value="1">--请选择--</option>
+                          <option value="2">大专以下</option> 
+                          <option value="2">大专</option> 
+                          <option value="2">本科</option> 
+                          <option value="2">硕士</option> 
+                          <option value="2">博士</option> 
+                 </select>
+                </div>
+                 </div>          
+   <div class="shenfen">&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class="redo">*</span>目前身份：
+            </div>
+   <div class="shenfeninput">
+            <div>
+                 <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                           <option value="1">--请选择--</option>
+                           <option value="2">大专在读</option> 
+                           <option value="2">本科大一</option> 
+                           <option value="2">本科大二</option>
+                           <option value="2">本科大三</option>
+                           <option value="2">本科大四</option>
+                           <option value="2">本科大五</option>
+                           <option value="2">在读硕士生</option>
+                           <option value="2">硕士进修老师</option>
+                           <option value="2">在读博士生</option>
+                           <option value="2">其他学生</option>
+                           <option value="2"></option>
+                 </select><span class="redb">请及时更新自己的身份，暑假期间注册，请选择下一学期的身份</span>
+                 
+             </div> 
+           </div>
+   <div class="jiguan"> &nbsp;<span class="redo">*</span>籍贯（生源地）：</div>
+   <div class="jiguaninput">
+             <div>
+                 <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                    <option value="1">--请选择--</option>
+                    <option value="2">青岛市南</option> 
+                    <option value="2">青岛市北</option>
+                    <option value="2">青岛四方</option>
+                    <option value="2">青岛李沧</option>
+                    <option value="2">青岛崂山</option>
+                    <option value="2">青岛城阳</option>
+                    <option value="2">青岛黄岛</option>
+                    <option value="2">青岛即墨</option>
+                    <option value="2">青岛胶州</option>
+                    <option value="2">青岛平度</option>
+                    <option value="2"></option>
+                 </select><span class="redb">（并非指当前所在地）</span>
+               </div>
+             </div>
+   <div class="biye"><span class="redo">*</span>毕业/就读高校：</div>
+   <div class="biyeinput">
+              <div>
+                 <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                           <option value="1">--请选择--</option>
+                           <option value="2">海大渔山校区</option> 
+                           <option value="2">崂山校区</option>
+                           <option value="2">浮山校区</option>
+                           <option value="2">东部校区</option>
+                           <option value="2">四方校区</option>
+                           <option value="2">青岛大学师范学院</option>
+                           <option value="2">山东科技大学</option>
+                 </select> <span class="redb">
+                  若列表中无选项，请在文本框中填写</span>
+                   <input type="text" size="15" value="" />               
+                </div>
+              </div>
+   <div class="gaozhong">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <span class="redo">*</span>高中母校：
+             </div>
+   <div class="gaozhonginput">
+              <input type="text" size="30" value="" /> <span class="redb">
+              请填全称（省份、市、中学名称，如果是省市重点中学请注明）</span>
+             </div>
+   <div class="lianxifangshi">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;<span class="redb"> 联系方式</span>
+    
+      </div>
+   <div class="shouji">&nbsp;&nbsp;&nbsp;&nbsp;<span class="redo">*</span>手机/小灵通：</div>
+   <div class="shoujiinput">
+           <input type="text" size="30" value="" /><span class="redb">           最好留下多个联系方式，换号时请及时更新联系方式</span>
+
+           </div>
+   <div class="zhusuo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          <span class="redo">*</span>目前住所：
+            </div>
+   <div class="zhusuoinput">
+                <div>
+                 <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                          <option value="1">--请选择--</option>
+                          <option value="2">城东</option> 
+                          <option value="2">城南</option> 
+                          <option value="2">城北</option> 
+                          <option value="2">城西</option> 
+                          <option value="2">城中</option> 
+                 </select><span class="redb">选择离您的住所最近的地点</span>
+                </div>
+                     
+                </div>
+   <div class="jiating">&nbsp;&nbsp;家庭或校外住所：</div>
+   <div class="jiatinginput">
+                   <div>
+                    <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                          <option value="1">--请选择--</option>
+                          <option value="2">市南</option> 
+                          <option value="2">市东</option> 
+                          <option value="2">市北</option> 
+                          <option value="2">市西</option> 
+                          <option value="2">市中</option> 
+                    </select> <span class="redb">请家在青岛市区或住在校外的教员填写</span>
+                     </div>
+                     
+                      </div>
+           
+                      </div>
+   <div class="email">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="redo">*</span>Email：
+          </div>
+   <div class="emailinput">
+            <input type="text" size="30" value="" /><span class="redb">
+            (为通知合适您的家教及找回密码，请认真填写)</span>
+             </div>
+   <div class="qq">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;QQ：
+       </div>
+   <div class="qqinput">
+             <input type="text" size="30" value="" />
+              </div>
+   <div class="xiangxi">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         详细地址：
+           </div>
+   <div class="xiangxiinput">
+              <input type="text" size="30" value="" /><span class="redb">
+              (以方便我们给您寄送家教相关资料及协议等。)</span>
+                </div>
+   <div class="jiajiaoxinxi">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <span class="redb"> 家教信息</span>  
+        </div>
+   <div class="putonghua">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="redo">*</span>普通话：
+         </div>
+   <div class="putonghuainput">
+           <div>
+                 <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                          <option value="1">一般</option>
+                          <option value="2">标准</option> 
+                          <option value="2">较差</option> 
+                          <option value="2"></option> 
+                          <option value="2"></option> 
+                          <option value="2"></option> 
+                 </select>
+                </div>
+                </div>
+   <div class="diyiwaiyu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <span class="redo">*</span>第一外语：
+         </div>
+   <div class="diyiwaiyuinput">
+              <div>
+                 <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                          <option value="1">英语</option>
+                          <option value="2">日语</option> 
+                          <option value="2">韩语</option> 
+                          <option value="2">法语</option> 
+                          <option value="2">德语</option> 
+                          <option value="2">西班牙语</option> 
+                 </select>
+                 <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                          <option value="1">一般</option>
+                          <option value="2">一级</option> 
+                          <option value="2">二级</option> 
+                          <option value="2">三级</option> 
+                          <option value="2">四级</option> 
+                          <option value="2">五级</option> 
+                 </select>
+                </div>                    
+                </div>
+   <div class="dierwaiyu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          第二外语：
+           </div>
+   <div class="dierwaiyuinput">
+           <div>
+                 <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                          <option value="1">无</option>
+                          <option value="2">英语</option> 
+                          <option value="2">日语</option> 
+                          <option value="2">韩语</option> 
+                          <option value="2">法语</option> 
+                          <option value="2">德语</option> 
+                 </select>
+                <select  display: none; height: 27PX; 
+                          position: absolute; 
+                          cursor: pointer; 
+                          margin-left: 2px;
+                          padding: 0px;">
+                          <option value="1">一般</option>
+                          <option value="2">一级</option> 
+                          <option value="2">二级</option> 
+                          <option value="2">三级</option> 
+                          <option value="2">四级</option> 
+                          <option value="2">五级</option> 
+                 </select>
+                </div>
+                     
+                </div>
+   <div class="ziwomiaoshu">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;<span class="redo">*</span>自我描述与<br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;  特长展示：
+            </div>
+   <div class="ziwomiaoshuinput">&nbsp;
+              <input type="text"  style="width: 400px  ;height: 90px " ;value="" /><br>
+              <span class="redb">
+              全面展示你的实力和优势特长，增加你简历的含金量！例如：在比赛中得过什么重要奖项，获得过什么奖学金，取得什么样的高考成绩，有哪些能证明你能力的资格证书之类。 不得少于50字，不得超过500字。家长选择你的重要依据，请认真填写！</span></br>
+                </div>
+   <div class="jiajiaojingli">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            家教经历<br>&nbsp;&nbsp;
+             &nbsp;&nbsp;&nbsp;（教学成果）：<br/>
+            </div>
+   <div class="jiajiaojingliinput">&nbsp;
+             <input type="text"  style="width: 400px  ;height: 90px " ;value="" /><br>
+             <span class="redb">
+              这些内容是对您教学水平最有力和最直接的反映！是学员选择您的一项重要依据。字数500字以内。最好说明辅导时间、学生年级、辅导效果。可参考以下形式：2008年10月-12月，市南区初三学生英语，期终考试从全班第30名上升至第10名，英语从60分提升到80分。</span></br>
+                </div>
+   <div class="fudaokemu">    
+                   <span class="redo">*</span>可辅导的科目<br>(不超过10项)：</br>       　 
+                     </div>
+   <div class="fudaokemuinput"> 
+        <span class="redt">
+         教员在选择中考、高考、雅思、新概念等有难度的科目时应量力而行，最好有实际辅导经验。</span>
+           
+
+           <br>
+              <form action="" method="get"> 
+                ----<strong>小学</strong>----
+                 <br>
+                  <label><input name="Fruit" type="checkbox" value="" />小学语文</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />小学数学</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />小学英语</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />小学奥数</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />小学全科</label>
+                 <br/> 
+              </form>
+        
+              <form action="" method="get"> 
+                ----<strong>初中</strong>----
+                 <br>
+                  <label><input name="Fruit" type="checkbox" value="" />初中语文</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />初中英语</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />初中数学</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />初中物理</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />初中化学</label>
+                  <label><input name="a" type="checkbox"  />初中地理</label>
+                  <label><input name="a" type="checkbox"  />初中生物</label>
+                  <label><input name="a" type="checkbox"  />初中全科</label>
+                  <label><input name="a" type="checkbox"  />初中奥数</label>
+                  <label><input name="a" type="checkbox"  />中考语文</label>
+                  <label><input name="a" type="checkbox"  />中考英语</label>
+                  <label><input name="a" type="checkbox"  />中考数学</label>
+                  <label><input name="a" type="checkbox"  />中考物理</label>
+                  <label><input name="a" type="checkbox"  />中考化学</label>
+                  <label><input name="a" type="checkbox"  />中考数理化</label>
+                  <label><input name="a" type="checkbox"  />中考全科</label>
+                  <label><input name="a" type="checkbox"  />中考心理辅导</label>
+                 <br/> 
+              </form>
+            
+              <form action="" method="get"> 
+                ----<strong>高中</strong>----
+                 <br>
+                  <label><input name="Fruit" type="checkbox" value="" />高一高二语文</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />高一高二英语</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />高一高二数学</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />高一高二物理</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />高一高二化学</label>
+                  <label><input name="a" type="checkbox"  />高一高二地理</label>
+                  <label><input name="a" type="checkbox"  />高一高二生物</label>
+                  <label><input name="a" type="checkbox"  />初中全科</label>
+                  <label><input name="a" type="checkbox"  />高考语文</label>
+                  <label><input name="a" type="checkbox"  />高考英语</label>
+                  <label><input name="a" type="checkbox"  />高考数学</label>
+                  <label><input name="a" type="checkbox"  />高考物理</label>
+                  <label><input name="a" type="checkbox"  />高考化学</label>
+                  <label><input name="a" type="checkbox"  />高考数理化</label>
+                  <label><input name="a" type="checkbox"  />高考美术</label>
+                  <label><input name="a" type="checkbox"  />高考理综</label>
+                  <label><input name="a" type="checkbox"  />高考文综</label>
+                  <label><input name="a" type="checkbox"  />高考心理辅导</label>
+                  <br/> 
+              </form>
+           
+              <form action="" method="get"> 
+                ----<strong>大学</strong>----
+                 <br>
+                  <label><input name="Fruit" type="checkbox" value="" />大学数学</label> 
+                  <label><input name="Fruit" type="checkbox" value="" />考研数学</label> 
+                 <br/> 
+              </form>
+           
+              <form action="" method="get"> 
+                ----<strong>英语</strong>----
+                 <br>
+                  <label><input name="a" type="checkbox"  />英语口语</label> 
+                  <label><input name="a" type="checkbox"  />新概念英语</label> 
+                  <label><input name="a" type="checkbox"  />牛津英语</label> 
+                  <label><input name="a" type="checkbox"  />英语四级</label> 
+                  <label><input name="a" type="checkbox" />英语六级</label>
+                  <label><input name="a" type="checkbox" />GRE</label>
+                  <label><input name="a" type="checkbox" />托福</label>
+                  <label><input name="a" type="checkbox" />雅思</label>
+                  <label><input name="a" type="checkbox" />初级商务英语</label>
+                  <label><input name="a" type="checkbox" />高级商务英语</label>
+                  <label><input name="a" type="checkbox" />剑桥英语</label>
+                  <label><input name="a" type="checkbox" /></label>
+                 <br/> 
+              </form>
+           
+              <form action="" method="get"> 
+                ----<strong>小语种</strong>----
+               <br>
+                 <label><input name="a" type="checkbox" />日语</label>
+                 <label><input name="a" type="checkbox" />法语</label>
+                 <label><input name="a" type="checkbox" />德语</label>
+                 <label><input name="a" type="checkbox" />韩语</label>
+                 <label><input name="a" type="checkbox" />俄语</label>
+                 <label><input name="a" type="checkbox" />西班牙语</label>
+                 <label><input name="a" type="checkbox" />葡萄牙语</label>
+                 <label><input name="a" type="checkbox" />阿拉伯语</label>
+                 <br/> 
+              </form>
+           
+              <form action="" method="get"> 
+                ----<strong>艺术</strong>----
+                 <br>
+                 <label><input name="a" type="checkbox" />摄影</label>
+                 <label><input name="a" type="checkbox" />书法</label>
+                 <label><input name="a" type="checkbox" />美术</label>
+                 <label><input name="a" type="checkbox" />漫画</label>
+                 <label><input name="a" type="checkbox" />中国画</label>
+                 <label><input name="a" type="checkbox" />西洋画</label>
+                 <label><input name="a" type="checkbox" />交谊舞</label>
+                 <label><input name="a" type="checkbox" />芭蕾舞</label>
+                 <label><input name="a" type="checkbox" />声乐（美声）</label>
+                 <label><input name="a" type="checkbox" />声乐（民族）</label>
+                 <br/> 
+              </form>
+           
+              <form action="" method="get"> 
+                ----<strong>乐器</strong>----
+                 <br>
+                 <label><input name="a" type="checkbox" />钢琴</label>
+                 <label><input name="a" type="checkbox" />电子琴</label>
+                 <label><input name="a" type="checkbox" />小提琴</label>
+                 <label><input name="a" type="checkbox" />大提琴</label>
+                 <label><input name="a" type="checkbox" />长笛</label>
+                 <label><input name="a" type="checkbox" />吉他</label>
+                 <label><input name="a" type="checkbox" />手风琴</label>
+                 <label><input name="a" type="checkbox" />萨克斯</label>
+                 <label><input name="a" type="checkbox" />打击乐</label>
+                 <label><input name="a" type="checkbox" />小号</label>
+                 <label><input name="a" type="checkbox" />大号</label>
+                 <label><input name="a" type="checkbox" />圆号</label>
+                 <label><input name="a" type="checkbox" />二胡</label>
+                 <label><input name="a" type="checkbox" />笛子</label>
+                 <label><input name="a" type="checkbox" />琵琶</label>
+                 <label><input name="a" type="checkbox" />古筝</label>
+                 <label><input name="a" type="checkbox" />古琴</label>
+                 <label><input name="a" type="checkbox" /></label>
+                 <br/> 
+              </form>
+           
+              <form action="" method="get"> 
+                ----<strong>计算机</strong>----
+                 <br>
+                 <label><input name="a" type="checkbox" />计算机基本操作</label>
+                 <label><input name="a" type="checkbox" />数据库</label>
+                 <label><input name="a" type="checkbox" />网页设计与制作</label>
+                 <label><input name="a" type="checkbox" />计算机应用能力</label>
+                 <label><input name="a" type="checkbox" />Linux或Unix</label>
+                 <label><input name="a" type="checkbox" />网站开发</label>
+                 <label><input name="a" type="checkbox" />图像处理软件</label>
+                 <label><input name="a" type="checkbox" />动画制作</label>
+                 <label><input name="a" type="checkbox" />程序制作</label>
+                 <label><input name="a" type="checkbox" />程序设计高级</label>
+                 <label><input name="a" type="checkbox" />微软证书</label>
+                 <br/> 
+              </form>
+           
+              <form action="" method="get"> 
+                ----<strong>棋类/体育</strong>----
+                 <br>
+                 <label><input name="a" type="checkbox" />围棋</label>
+                 <label><input name="a" type="checkbox" />中国象棋</label>
+                 <label><input name="a" type="checkbox" />国际象棋</label>
+                 <label><input name="a" type="checkbox" />中国武术散打</label>
+                 <label><input name="a" type="checkbox" />拳击</label>
+                 <label><input name="a" type="checkbox" />截拳道</label>
+                 <label><input name="a" type="checkbox" />跆拳道</label>
+                 <label><input name="a" type="checkbox" />空手道</label>
+                 <label><input name="a" type="checkbox" />瑜伽</label>
+                 <label><input name="a" type="checkbox" />滑冰旱冰</label>
+                 <label><input name="a" type="checkbox" />游泳</label>
+                 <label><input name="a" type="checkbox" />乒乓球</label>
+                 <label><input name="a" type="checkbox" />羽毛球</label>
+                 <label><input name="a" type="checkbox" />网球</label>
+
+                 <br/> 
+              </form>
+            </br>
+              </div>
+   <div class="shanchangkemu">&nbsp;&nbsp;&nbsp;&nbsp;
+        <span class="redo">*</span>最擅长的科目:
+          </div>
+   <div class="shanchangkemuinput">
+       <input type="text" size="30" value="" /><span class="redb">
+        请填写你最拿手、最有经验的科目，例如：“英语、初中数理化、高三数学”，越具体越好，不超过三项</span>
+       </div>
+   <div class="shoukequyu">&nbsp;&nbsp;&nbsp;&nbsp;
+         <span class="redo">*</span>方便授课区域: 
+            </div>
+   <div class="shoukequyuinput">
+           <p >
+              <form action="" method="get"> 
+                ----<strong>市南-</strong>---<label><input name="a" type="checkbox" />
+                <span class="redt">市南全区</span></label>
+
+                 <br>
+                 <label><input name="a" type="checkbox" />团岛</label>
+                 <label><input name="a" type="checkbox" />火车站（栈桥）</label>
+                 <label><input name="a" type="checkbox" />中山路</label>
+                 <label><input name="a" type="checkbox" />海大鱼山校区（大学路）</label>
+                 <label><input name="a" type="checkbox" />汇泉广场</label>
+                 <label><input name="a" type="checkbox" />八大关</label>
+                 <label><input name="a" type="checkbox" />市政府</label>
+                 <label><input name="a" type="checkbox" />书城</label>
+                 <label><input name="a" type="checkbox" />广电大厦（大福源）</label>
+                 <label><input name="a" type="checkbox" />奥柯玛立交桥（百安居）</label>
+                 <label><input name="a" type="checkbox" />青岛大学（麦岛）</label>
+                 <label><input name="a" type="checkbox" />东部市立医院</label>
+                 <label><input name="a" type="checkbox" />湛山</label>
+                 <label><input name="a" type="checkbox" /></label>
+                 <br/> 
+              </form>
+            
+              <form action="" method="get"> 
+                ----<strong>市北</strong>----<label><input name="a" type="checkbox" /><span class="redt">
+                市北全区</span></label>
+                 <br>
+                 <label><input name="a" type="checkbox" />小港</label>
+                 <label><input name="a" type="checkbox" />市立医院（西部）</label>
+                 <label><input name="a" type="checkbox" />电子信息城</label>
+                 <label><input name="a" type="checkbox" />台东</label>
+                 <label><input name="a" type="checkbox" />内蒙古路长途汽车站</label>
+                 <label><input name="a" type="checkbox" />错埠岭小区</label>
+                 <label><input name="a" type="checkbox" />浮山后</label>
+                 <label><input name="a" type="checkbox" />山东路家乐福</label>
+                 <label><input name="a" type="checkbox" />敦化路</label>
+                 <label><input name="a" type="checkbox" />青岛图书馆</label>
+                 <br/> 
+              </form>
+
+              <form action="" method="get"> 
+                ----<strong>四方</strong>----<label><input name="a" type="checkbox" /><span class="redt">
+                四方全区</span></label>
+                 <br>
+                 <label><input name="a" type="checkbox" />四方利群</label>
+                 <label><input name="a" type="checkbox" />青岛理工大学（抚顺路）</label>
+                 <label><input name="a" type="checkbox" />兴隆路</label>
+                 <label><input name="a" type="checkbox" />杭州路</label>
+                 <label><input name="a" type="checkbox" />瑞昌路</label>
+                 <label><input name="a" type="checkbox" />宜昌路</label>
+                 <label><input name="a" type="checkbox" />孤山村</label>
+                 <label><input name="a" type="checkbox" />东方家园（公交四公司）</label>
+                 <label><input name="a" type="checkbox" />水清沟（市肿瘤医院）</label>
+                 <label><input name="a" type="checkbox" />青岛科技大学（胜利桥）</label>
+                 <label><input name="a" type="checkbox" />海琴广场</label>
+                 <label><input name="a" type="checkbox" />北岭</label>
+                 <label><input name="a" type="checkbox" />杨家群</label>
+                 <br/>
+              <form action="" method="get"> 
+                ----<strong>李沧</strong>----<label><input name="a" type="checkbox" /><span class="redt">
+                李沧全区</span></label>
+                 <br>
+                 <label><input name="a" type="checkbox" />太原路</label>
+                 <label><input name="a" type="checkbox" />沧口</label>
+                 <label><input name="a" type="checkbox" />振华路立交桥</label>
+                 <label><input name="a" type="checkbox" />李沧区政府</label>
+                 <label><input name="a" type="checkbox" />李沧广场</label>
+                 <label><input name="a" type="checkbox" />李村公园</label>
+                 <label><input name="a" type="checkbox" />九水路立交桥</label>
+                 <label><input name="a" type="checkbox" />侯家庄</label>
+                 <label><input name="a" type="checkbox" />永安路</label>
+                 <label><input name="a" type="checkbox" />百通花园</label>
+                 <label><input name="a" type="checkbox" />百通馨园</label>
+                 </br>
+              </form>
+              <form action="" method="get"> 
+                ----<strong>嶗山</strong>----<label><input name="a" type="checkbox" /><span class="redt">
+                嶗山全区</span></label>
+                 <br>
+                 <label><input name="a" type="checkbox" />颐中体育场</label>
+                 <label><input name="a" type="checkbox" />辽阳路立交桥</label>
+                 <label><input name="a" type="checkbox" />青岛国际啤酒城</label>
+                 <label><input name="a" type="checkbox" />青岛科技大学东部校区</label>
+                 <label><input name="a" type="checkbox" />石老人</label>
+                 <label><input name="a" type="checkbox" />青岛市博物馆</label>
+                 <input name="a" type="checkbox" />海大崂山校区</label>
+                 <input name="a" type="checkbox" />中韩</label>
+                 <input name="a" type="checkbox" />沙子口</label>
+                 <input name="a" type="checkbox" />北村</label>
+                </br>
+              </form>
+                 <form action="" method="get"> 
+                ----<strong>城阳</strong>----<label><input name="a" type="checkbox" />城阳</label>    
+                 </form>
+                  <form action="" method="get"> 
+                ----<strong>黄岛</strong>----<label><input name="a" type="checkbox" />黄岛</label>    
+                 </form>
+                  <form action="" method="get"> 
+                ----<strong>即墨</strong>----<label><input name="a" type="checkbox" />即墨</label>    
+                 </form>
+                  <form action="" method="get"> 
+                ----<strong>胶州</strong>----<label><input name="a" type="checkbox" />胶州</label>    
+                 </form>
+                  <form action="" method="get"> 
+                ----<strong>胶南</strong>----<label><input name="a" type="checkbox" />胶南</label>    
+                 </form>
+                  <form action="" method="get"> 
+                ----<strong>平度</strong>----<label><input name="a" type="checkbox" />平度</label>    
+                 </form>
+                  <form action="" method="get"> 
+                ----<strong>莱西</strong>----<label><input name="a" type="checkbox" />莱西</label>    
+                 </form>
+            </p>
+
+
+   
+            </div>
+   <div class="shoukeshijian">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+       <span class="redo">*</span>可授课时间:
+          </div>
+   <div class="shoukeshijianinput">
+      <input type="text" size="30" value="授课无时间限制" /><span class="redb">
+      （请注意及时更新授课时间）</span>
+      </div>
+   <div class="fudaofangshi">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+               <span class="redo">*</span>辅导方式:
+                 </div>
+    <div class="fudaofangshiinput">
+       <label><input name="a" type="checkbox" />教员上门</label>
+       <label><input name="a" type="checkbox" />学员上门</label>
+       <label><input name="a" type="checkbox" />网上辅导</label>
+       <label><input name="a" type="checkbox" />可协商</label>
+       <label><input name="a" type="checkbox" /></label>
+       </div>
+  <div class="xinchou">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+             <span class="redo">*</span>薪酬要求:
+                </div>
+   <div class="xinchouinput">
+        <input type="text" style="width: 400px  ;height: 60px " ; value="执行青岛家教网薪水标准" />&nbsp;
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+         &nbsp;&nbsp; <span class="redb">
+          默认为接受青岛家教网的课时费标准（查看详细的报酬标准<变成链接>)，如果不同意，也可以在表中列出自己的薪酬要求，如：小学**元/时、小学奥数**元/时、初一**元/时、高三**元/时、钢琴**元/时、陪读**元/月。</span>
+       
+        </div>
+  <div class="tijiao">
+       <input type="button" id="sub" name="提交" value="提交" style="height:20px;width:70px;">
+       </div>
+   <p style="left: 42%; 
+             position: absolute; 
+             top: 2655px;
+             font-size:10px;" > Copyright © 2003～2008 版权所有 青岛家教网
+             </p>
+</body>
+</html>

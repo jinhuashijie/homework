@@ -1,0 +1,99 @@
+var express = require('express');
+var router = express.Router();
+var mysql =require('mysql');
+
+// 在主页获取新闻时的请求 
+router.get('/', function(req, res, next) {
+  //res.render('index', { title: 'Express' });
+  var newstype =req.query.newstype;
+
+  //建立数据库连接
+  //var connection = mysql.createConnection(options);
+  // options表示对象或url字符串，指定该链接的各种选项，host,port,user,password,
+  // 
+  var connection = mysql.createConnection({
+  	host:"localhost",
+  	port:3306,
+    //datatype:'json',//加一个数据格式看看怎么样---没用还报错
+  	user:"root",//已经被证明没有问题
+  	password:"",//这个用户名，密码还有端口都可能有问题
+  	database:"baidunews2"
+  });
+  connection.connect();
+  connection.query('SELECT * FROM `news` WHERE `newstype`=?',[newstype],function(err,rows,fields){//错误返回信息，2 ，文件的集合
+                // console.log('连接测试');//能打印出来，肯定是连接成功了的
+                 //console.log(err);
+                 //console.log(fields);//打出来一堆东西
+                 res.json(rows);
+                  // console.log(rows+'应该有东西');
+                  // console.log(rows.int);
+                  // console.log(newstype);//这个能打印出来精选
+                  // console.log(newstypetest);
+                  //console.log(newstitle);//只是输出连接信息
+                  //等于这个rows没有打印出来
+                  //全部注释掉会显示连接信息
+                  //Object rows = "foo";//这是一个转换方法
+                  //String str = String.valueOf(rows);
+                  //console.log(str);
+  })
+});
+/*//     网络模板部分
+var mysql = require('mysql');  
+  
+var connection = mysql.createConnection({  
+    host : 'localhost',  
+    port : 3306,  
+    database : 'node',  
+    user : 'root',  
+    password : 'root'  
+}); */ 
+  
+/*connection.connect(function(err) {  
+    if(err) {  
+        console.log("连接失败");  
+    }else{  
+        console.log("连接成功");  
+    }  
+});  
+  
+connection.end(function(err) {  //这个完全找不到
+    if(err) {  
+        console.log("关闭连接失败");  
+    }else{  
+        console.log("关闭连接成功");  
+    }  
+}); */ 
+//var mysql=require('mysql');  //加载mysql的模块
+
+/*var connection=mysql.createConnection({
+    host:'localhost',
+    user:'root',
+    password:'',
+    database:'baidunews2',//这个测试连接成功
+    port:'3306'
+
+})*/
+//这个查询方法为什么不能用呢？
+/*connection.connect(function(err){
+    if(err){
+        console.log('query-'+err);
+        return;
+    }
+
+    console.log('conection connect succedd');
+})*/
+
+
+//查询方法
+/*connection.query('select * from news',function(err,rs,fields){
+    if(err){
+        console.log('insert err',err.message);
+        return;
+    }
+
+    console.log('insert success'+rs[0].uname);
+    console.log(fields);
+});*/
+
+module.exports = router;
+//module.exports = routes;//这样写会报错找不到

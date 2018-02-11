@@ -1,0 +1,11 @@
+.con{
+
+}
+.one{
+    -webkit-column-count:3;
+   	-webkit-column-rule-style:dotted;
+}
+.one img{
+	width: 300px;
+	height: 300px;
+}

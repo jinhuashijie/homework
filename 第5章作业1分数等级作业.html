@@ -1,0 +1,75 @@
+<html>
+ <head>
+  <title>assessment.html</title>
+  <script type="text/javascript">
+function cmdok_onclick() {
+ var scores = parseInt(document.getElementById("num1").value);
+  if (scores <= 100&&scores>=90) {
+  document.getElementById("demo").value="一等" ;
+ } 
+ else if (scores < 90&&scores>=80) {
+  document.getElementById("demo").value="二等" ;
+ }
+ else if (scores < 80&&scores>=70) {
+  document.getElementById("demo").value="三等" ;
+ }
+ else if (scores < 70&&scores>=60) {
+  document.getElementById("demo").value="四等" ;
+ }
+ else if (scores < 60&&scores>=50) {
+  document.getElementById("demo").value="五等" ;
+ }
+ else if (scores < 50&&scores>=40) {
+  document.getElementById("demo").value="六等" ;
+ }
+ else if (scores < 40&&scores>=30) {
+  document.getElementById("demo").value="七等" ;
+ }
+ else if (scores < 30&&scores>=20) {
+  document.getElementById("demo").value="八等" ;
+ }
+ else if (scores < 20&&scores>=10) {
+  document.getElementById("demo").value="九等" ;
+ }
+ else if (scores < 10&&scores>=0) {
+  document.getElementById("demo").value="十等" ;
+ }
+ else if (scores < 0&&scores>100) {
+  document.getElementById("demo").value="输入有误" ;
+ }
+ else{
+  document.getElementById("demo").value="输入有误" ;
+ }
+}
+/*function reset(){
+//  var scores = parseInt(document.getElementById("num1").value);
+    if (scores!=0||demo!=0) {
+      document.getElementById("num1").value="" ;
+       document.getElementById("demo").value="" ;
+    }
+    else if(scores=""&&demo=""){
+      alert(请输入分数)
+    }
+    else{
+      alert(ok)
+    }
+ }*/
+ function reset(){
+  document.getElementById("num1").value="" ;
+  document.getElementById("demo").value="" ;
+ }
+</script>
+ </head>
+ <body>
+   成绩录入：
+   <input type="text"  id="num1">
+   <br />
+   成绩等级：
+   <input type="text" name="" id="demo"></input>
+   <p></p>
+   <br />
+   <input type="button" name="提交" value="提交" onClick="cmdok_onclick()">
+   <input type="button" name="重置" value="重置" onClick="reset()" id="class1">
+  
+ </body>
+</html>

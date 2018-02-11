@@ -1,0 +1,342 @@
+<html>
+<head>
+<title>完整计算器</title>
+<style type="text/css">
+.container{
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    width: 300px;
+    height: 350px;
+    background: #E5E5E5;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.delete1{
+    position: relative;
+    margin-left: 260px;
+    font-weight: 20;
+    font-size: 15px;
+}
+.inputtype input{
+    text-align: center;
+    height: 30px;
+    font-size: 18px;
+    margin-top: 2px;
+}
+.input1{
+    width: 100px;
+    position: relative;
+    float: left;
+}
+.input2{
+    width: 100px;
+    position: relative;
+   /* float: left;*/
+}
+.input3{
+    width: 100px;
+    position: relative;
+    float: right;
+}
+.result{
+    width: 300px;
+    position: relative;
+    float: right;
+}
+.number{
+    width: 180px;
+    /*height: 130px;*/
+    position: relative;
+    float: left;
+    margin-left:10px;
+}
+.number button{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 30px;
+}
+.symbol{
+    position: relative;
+    margin-left: -10px;
+}
+.symbol button{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    float: left;
+    margin-top: 20px;
+    margin-left:10px;
+    font-size: 30px;
+    color: white;
+    background: #3A7F68;
+}
+.math{
+    font-size: 15px;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left:10px;
+    background: #3A7F68;
+    color: white;
+}
+</style>
+<body>
+<div class="container">
+    <button id="math" class="delete1" onclick="delete1()"> ←</button>
+    <div class="inputtype">
+        <input type="text" name="" class="input1" id="input1">
+        <input type="text" name="" class="input2"  id="input2">
+        <input type="text" name="" class="input3"  id="input3">
+        <input type="text" name=""  class="result" id="result">
+    </div>    
+    <div class="number">
+        <button class="" value="" onclick="num1()">1</button>
+        <button class="" value="" onclick="num2()">2</button>
+        <button class="" value="" onclick="num3()">3</button>
+        <button class="" value="" onclick="num4()">4</button>
+        <button class="" value="" onclick="num5()">5</button>
+        <button class="" value="" onclick="num6()">6</button>
+        <button class="" value="" onclick="num7()">7</button>
+        <button class="" value="" onclick="num8()">8</button>
+        <button class="" value="" onclick="num9()">9</button>
+        <button class="" value="" onclick="num11()">.</button>
+        <button class="" value="" onclick="num0()">0</button>
+        <button class="" style="color:white;background: #3A7F68" onclick="equals()" id="equals">=</button>
+    </div>
+    <div class="symbol">
+        <button class="" value="" onclick="plus()">+</button>
+        <button class="" value="" onclick="minus()">-</button>
+        <button class="" value="" onclick="multiply()">X</button>
+        <button class="" value="" onclick="divided()">÷</button>
+        <button class="" value="" onclick="percent()">%</button>
+        <button id="" onclick="square()">X²</button>
+        <button id="reset" onclick="reset()">C</button>
+    </div> 
+    <button id="math" class="math" onclick="math()"> √￣</button>
+    
+</div>
+</body>
+<script type="text/javascript">
+function num1(){
+    var i = document.getElementById("input2").value;
+    var j = document.getElementById("input1").value;
+    var h = document.getElementById("input3").value;
+    if (i=="") {
+        document.getElementById("input1").value=j+1;
+    } else{
+        document.getElementById("input3").value=h+1;
+    }
+}
+function num2(){
+    var i = document.getElementById("input2").value;
+    var j = document.getElementById("input1").value;
+    var h = document.getElementById("input3").value;
+    if (i=="") {
+        document.getElementById("input1").value=j+2;
+    } else{
+        document.getElementById("input3").value=h+2;
+    }
+}
+function num3(){
+    var i = document.getElementById("input2").value;
+    var j = document.getElementById("input1").value;
+    var h = document.getElementById("input3").value;
+    if (i=="") {
+        document.getElementById("input1").value=j+3;
+    } else{
+        document.getElementById("input3").value=h+3;
+    }
+}
+function num4(){
+    var i = document.getElementById("input2").value;
+    var j = document.getElementById("input1").value;
+    var h = document.getElementById("input3").value;
+    if (i=="") {
+        document.getElementById("input1").value=j+4;
+    } else{
+        document.getElementById("input3").value=h+4;
+    }
+}
+function num5(){
+    var i = document.getElementById("input2").value;
+    var j = document.getElementById("input1").value;
+    var h = document.getElementById("input3").value;
+    if (i=="") {
+        document.getElementById("input1").value=j+5;
+    } else{
+        document.getElementById("input3").value=h+5;
+    }
+}
+function num6(){
+    var i = document.getElementById("input2").value;
+    var j = document.getElementById("input1").value;
+    var h = document.getElementById("input3").value;
+    if (i=="") {
+        document.getElementById("input1").value=j+6;
+    } else{
+        document.getElementById("input3").value=h+6;
+    }
+}
+function num7(){
+    var i = document.getElementById("input2").value;
+    var j = document.getElementById("input1").value;
+    var h = document.getElementById("input3").value;
+    if (i=="") {
+        document.getElementById("input1").value=j+7;
+    } else{
+        document.getElementById("input3").value=h+7;
+    }
+}
+function num8(){
+    var i = document.getElementById("input2").value;
+    var j = document.getElementById("input1").value;
+    var h = document.getElementById("input3").value;
+    if (i=="") {
+        document.getElementById("input1").value=j+8;
+    } else{
+        document.getElementById("input3").value=h+8;
+    }
+}
+function num9(){
+    var i = document.getElementById("input2").value;
+    var j = document.getElementById("input1").value;
+    var h = document.getElementById("input3").value;
+    if (i=="") {
+        document.getElementById("input1").value=j+9;
+    } else{
+        document.getElementById("input3").value=h+9;
+    }
+}
+function num0(){
+    var i = document.getElementById("input2").value;
+    var j = document.getElementById("input1").value;
+    var h = document.getElementById("input3").value;
+    if (i=="") {
+        document.getElementById("input1").value=j+0;
+    } else{
+        document.getElementById("input3").value=h+0;
+    }
+}
+function num11(){
+    var i = document.getElementById("input2").value;
+    var j = document.getElementById("input1").value;
+    var h = document.getElementById("input3").value;
+    var n = j.indexOf(".");
+    var m = h.indexOf(".");
+    if (i=="") {
+        if(n==-1){
+            document.getElementById("input1").value=j+".";
+        } else if(n!=-1){
+            document.getElementById("input1").value=j;
+        }
+        
+    } else {
+        if(m==-1){
+            document.getElementById("input3").value=h+".";
+        } else if(m!=-1){
+            document.getElementById("input3").value=h;
+        }
+    }
+}
+function plus(){
+    document.getElementById("input2").value="+";
+}
+function minus(){
+    document.getElementById("input2").value="-";
+}
+function multiply(){
+    document.getElementById("input2").value="X";
+}
+function divided(){
+    document.getElementById("input2").value="÷";
+}
+
+function equals(){
+    //需要用parseFloat来转换获取到的数字，把字符转换成数值；
+    // parseInt 智能转换成数字，而且是取整的数字，parseFloat取到完整的值
+    var a = parseFloat(document.getElementById("input1").value);
+    var b = parseFloat(document.getElementById("input3").value);
+    var c = document.getElementById("input2").value;//这里不需要转换成数值了
+    if(c=="+"){
+        var m = a+b;
+        var h = m.toString();
+        var n = h.indexOf(".");
+        var j = h.substring(0,n);
+        var g = j.length;
+        var p = h.length;
+        var k = p-g;
+        if(k>6){
+            document.getElementById("result").value=(a+b).toFixed(6); 
+        } else{
+            document.getElementById("result").value=a+b;
+        }
+    }
+    if(c=="-"){
+        document.getElementById("result").value=(a-b).toFixed(6);
+    }
+    if(c=="X"){
+        document.getElementById("result").value=(a*b).toFixed(6);
+    }
+    if(c=="÷"){
+        var i = document.getElementById("input3").value;
+        if(i==0){
+            document.getElementById("result").value="除数不能为0";
+        } else{
+        document.getElementById("result").value=(a/b).toFixed(6); 
+        }
+       
+    }
+    //num = num.toFixed(2); // 输出结果为 2.45
+    
+}
+function percent(){
+    var i = document.getElementById("result").value;
+    var h = (parseFloat(document.getElementById("result").value)*100).toFixed(2);
+    if(i==""){
+          document.getElementById("result").value="0.00%";
+    } else{
+          document.getElementById("result").value=h+"%";
+    }
+}
+function math(){
+    var i =parseFloat(document.getElementById("input1").value);
+    var h = Math.sqrt(i);
+    document.getElementById("result").value=h;
+}
+function square(){
+    var i =parseFloat(document.getElementById("input1").value);
+    var h = i*i;
+    document.getElementById("result").value=h;
+}
+function reset(){
+    document.getElementById("input1").value = "";
+    document.getElementById("input2").value = "";
+    document.getElementById("input3").value = "";
+    document.getElementById("result").value = "";
+}
+function delete1(){
+    var i = document.getElementById("input2").value;
+    var a = document.getElementById("input1").value;
+    var b = document.getElementById("input3").value;
+    if(i==""){
+        document.getElementById("input1").value=a.substring(0,a.length-1)
+    } else{
+        document.getElementById("input3").value=b.substring(0,b.length-1)
+    }
+}
+//改进
+//1：小数点不能重复输入
+//2：加了根号，平方，百分比
+//3：百分比会自动保留两位小数
+//4：当小数点超过6位时只保留6位；
+//5：增加了退格功能
+
+
+</script>
+</html>

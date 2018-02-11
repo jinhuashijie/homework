@@ -1,0 +1,22 @@
+.box1{
+	float: left;
+	background: gray;
+	/*text-align: center;*/ box-algin:center;
+}
+.left{
+	float: left;
+	width: 400px;
+	height: 400px;
+	background: yellow;
+}
+.right{
+	float: right;
+	width: 300px;
+	height: 300px;
+	background: red;
+}
+   .col{
+   	-webkit-column-count:5;
+   	-webkit-column-rule-style:dotted;
+
+   }

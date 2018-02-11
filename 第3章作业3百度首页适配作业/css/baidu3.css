@@ -1,0 +1,306 @@
+body{
+           min-width: 800px;
+           height: 100%;
+           min-height: 600px; 
+           background: white;
+           behavior: url("csshover.htc");
+         }
+.menu1{                       /*顶部右边更多产品按钮*/
+            width: 67px;
+            height: 20px;
+            background: #317EF3;
+            color:#F0F0F0;
+            padding-right: 3px;
+            padding-left: 3px;
+            margin-left: 20px;
+            margin-top:10px;
+            text-decoration: none;
+            list-style:none;
+            float: right;
+
+         }    
+.menu1 ul{
+              margin:0;
+              padding: 0;
+              text-decoration: none;
+              width: 75px;
+              height: 70px;
+              _height:20px;
+              color:#F0F0F0;
+              list-style:none;
+         }
+.menu1 ul li{
+              position: relative;
+              float:left;
+              list-style: none;
+              padding: 0;border: 0px solid;
+              font-size: 14px;
+              width: 70px;
+              height: 100%;            
+              margin:0;
+              line-height: 20px;
+              text-decoration: none;
+              color:#F0F0F0;
+         }
+.menu1 ul li ul{
+             display: none;
+
+             padding: 0px;border: 1px solid #F0F0F0;
+             text-decoration: blink;
+             background: #F9F9F9;
+             margin:0px;
+         }
+.menu1 ul li ul a {text-decoration: none;}
+.menu1 ul li:hover ul{
+             display: block;
+             position: absolute;
+             left: 0px;top: 21px;
+         }
+.more1{
+             color: white;
+             text-decoration:none;
+         }
+
+.more2{
+            height: 100px;
+            width: 100px;
+            background: #F9F9F9;
+            position: relative;
+            left: -18px;
+            top:-43px;
+            text-decoration: none;
+         }
+
+.rice{
+            height: 45px;
+            width: 100px;
+            background: #F9F9F9 ;
+            position: relative;
+            left: -18px;
+            top:-43px;
+            text-decoration: none;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            border-top:solid 1px  #F0F0F0;
+
+         }
+.mus{
+          height: 45px;
+            width: 100px;
+            background: #F9F9F9 ;
+            position: relative;
+            left: -18px;
+            top:-38px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            border-top:solid 1px  #F0F0F0;
+            _margin-top: -8px;
+         }
+.pic{
+          height: 45px;
+            width: 100px;
+            background: #F9F9F9 ;
+            position: relative;
+            left: -18px;
+            top:-32px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            border-top:solid 1px  #F0F0F0;
+            _margin-top: -8px;
+         }
+.know{
+          height: 45px;
+            width: 100px;
+            background: #F9F9F9 ;
+            position: relative;
+            left: -18px;
+            top:-26px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            border-top:solid 1px  #F0F0F0;
+            _margin-top: -11px;
+         }
+.ku{
+          height: 45px;
+            width: 100px;
+            background: #F9F9F9 ;
+            position: relative;
+            left: -18px;
+            top:-20px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            border-top:solid 1px  #F0F0F0;
+            _margin-top: -11px;
+         }
+.bang{
+          height: 45px;
+            width: 100px;
+            background: #F9F9F9 ;
+            position: relative;
+            left: -18px;
+            top:-14px;
+            padding-top: 10px;
+            padding-bottom: 20px;
+            border-top:solid 1px  #F0F0F0;
+            _margin-top: -11px;
+         }
+.all{
+         height: 45px;
+            width: 100px;
+            background: #F9F9F9 ;
+            position: relative;
+            left: -18px;
+            top:-12px;
+            padding-top: 10px;
+            padding-bottom: 25px;
+            border-top:solid 1px  #F0F0F0;
+           _margin-top: -11px;
+         }
+    
+
+.set{                  /*顶部右边设置按钮*/
+      width: 80px;
+      height: 30px;
+      background: white;
+      text-align: center;
+      float: right;
+      margin-right: -30px;
+      padding-left: 10px;
+      margin-top: 5px;
+       }
+        
+ ul,li{
+      list-style:none;
+      margin:0; padding:0;
+      text-align: center;
+         }
+ ul li{
+     width:80px; 
+     height:30px; 
+     line-height:30px;
+     text-align: center;
+         }
+ ul li ul {
+     display:none; 
+     padding-left:0px;
+     text-align: center;
+       }
+ ul li:hover ul {
+     display:block;
+     text-align: center;
+    background: white;}
+
+.headerright{            /*顶部右边带连接文字*/
+      float: right;
+      position: relative;
+      margin-top: 8px;
+      _margin-top:10px;
+         }
+
+.headerright a{
+      margin-left: 13px;
+        font-size: 14px;
+        color: black;
+
+    }
+.headerright a:hover{
+      color: blue;
+    }
+.logo{
+      width:800px;
+      height: 300px;
+      position: absolute;
+      left: 50%;text-align: center;
+      margin-left: -400px;/**/
+      margin-top: 100px;
+      background: white;
+      _margin-left:-400px;
+         }
+.logo img{              /*logo大图片*/
+        width: 270px;
+        height: 129px;
+
+         }
+ form{                  /*搜索框*/
+      width: 684px;
+      margin:10px auto;
+      position: relative;
+     }
+ form span{             /*搜索框内背景图片*/
+      width: 20px;
+      height: 20px;
+      position: absolute;
+      right: 138px;
+      top:10px;
+      _right: 138px;
+      _top:10px;
+      background: white url(../image/camera_up.png) no-repeat;
+      cursor: pointer;
+     }
+ form span:hover{          /*搜索框内背景图片变色*/
+      background-position:0 -20px; 
+      _background-position:0 -20px;
+     }
+.text1{                    /*搜索框*/
+        width: 550px;
+        height: 36px;
+           line-height: 9px;
+         background-position:520px 10px;
+         padding-top: 0px;
+         margin-top: 1px;
+         border: 1px solid red;
+         outline: 0;
+         text-indent: 7px;
+         line-height: 36px;
+         float: left;
+         }
+.text1:hover{             /*搜索框鼠标滑过变色*/
+           border-color: blue; 
+      }
+.text1:focus{
+          border-color: yellow; 
+      }
+.button1{               /*搜索按钮*/
+        width: 130px;
+        height: 39px;
+        position: relative;
+        margin-left: 0px;
+        margin-bottom: -5px;
+        top: 1px;
+        background: #317EF3;
+        border: 0px solid;
+        border-bottom:  0px solid #317EF3; 
+        margin-top:0px;
+        color: white;
+        font-size: 15px;
+        float: left;
+         }
+.qrcode{                    /*底部二维码图片*/
+      position: absolute;
+      left: 50%;
+      margin-left: -50px;
+      top:450px;
+      text-align: center;
+      font-size: 12px;
+         }
+.navfooter{                  /*底部文字*/
+       position: absolute;
+       left: 50%;
+       margin-left: -240px;
+       top:550px;
+       text-align: center;
+       font-size: 12px;
+       line-height: 20px;
+       color: gray;
+         }
+.navfooter a{
+      margin-left: 10px;
+      color: gray;
+         }
+
+    </style>
+    <!--[if IE 6]>
+    <style>
+    body {behavior: url("csshover.htc");}
+    </style>
+    <![endif]-->/*ie6的情况下导入外部补丁*/
