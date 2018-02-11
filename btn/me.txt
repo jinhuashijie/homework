@@ -1,0 +1,9 @@
+master 1 first
+master 2
+<<<<<<< HEAD
+dev after add
+master before add
+on master change1
+=======
+on dev change1
+>>>>>>> dev
